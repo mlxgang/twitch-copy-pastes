@@ -1,0 +1,12 @@
+{
+  "name": "Twitch pastes extension",
+  "description": "This extension help to copy and paste text in chat on Twitch.tv",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.twitch.tv/*"],
+      "js": ["index.js"]
+    }
+  ]
+}
